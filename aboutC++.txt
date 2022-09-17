@@ -1,0 +1,15 @@
+C++ was developed by a Danish computer scientist known as Bjarne Stroucstrup. 
+C++ is objected programming developed by making certain changes and improvements on C.
+It adds object-oriented features to C. The first C++ compiler was Cfront, but as the name suggests,
+it was only a front-end compiler. Originally c++ was named "C with classes" but was changed in 1983 
+to its current name, demonstrating the incrementation from C to C++. It's designed to have qualities
+of C such as its speed but comes with its own high-level properties. The downside this language is 
+that it's a little harder to learn for beginners in coding and the code itself takes up more time then 
+code in languages such as python take. With the updates developed for C++, came multiple compilers 
+proven to be useful such as Turbo C++ compiler. The language itself though, has been modified multiple
+times with C++20 being the most updated version and C++23 being in the works. An interesting feature
+of C++ is its multiple inheritance feature that allows classes to inherit from more than one class.
+
+
+Sources:
+	https://www.geeksforgeeks.org/history-of-c/#:~:text=C%2B%2B20%20is%20the,C%2C%20by%20knocking%20out%20Python.
