@@ -1,15 +1,21 @@
-C++ was developed by a Danish computer scientist known as Bjarne Stroucstrup. 
-C++ is objected programming developed by making certain changes and improvements on C.
-It adds object-oriented features to C. The first C++ compiler was Cfront, but as the name suggests,
-it was only a front-end compiler. Originally c++ was named "C with classes" but was changed in 1983 
-to its current name, demonstrating the incrementation from C to C++. It's designed to have qualities
-of C such as its speed but comes with its own high-level properties. The downside this language is 
-that it's a little harder to learn for beginners in coding and the code itself takes up more time then 
-code in languages such as python take. With the updates developed for C++, came multiple compilers 
-proven to be useful such as Turbo C++ compiler. The language itself though, has been modified multiple
-times with C++20 being the most updated version and C++23 being in the works. An interesting feature
-of C++ is its multiple inheritance feature that allows classes to inherit from more than one class.
+History
+C++ is an object oriented programming developed by a Danish computer scientist known as Bjarne Stroucstrup. This program was developed by making certain changes and improvements on C. As can be assumed by the type of program, it adds object-oriented features to C. C++ is mainly used for game programming, software engineering, data structures, developing, operating systems, and applications. Some interesting examples of C++ in action are games such as World of Warcraft and even gaming consoles such as Playstation, Nintendo Switch and Xbox. This language plays an essential role in game developing as it allows developers to build the most high-performance games they can develop. 
+Originally c++ was named "C with classes" but was changed in 1983 to its current name, demonstrating the incrementation from C to C++. It is designed to have qualities of C such as its speed but comes with its own high-level properties. The downside to this language is that it's a little harder to learn for beginners in coding and the code itself takes up more time then code in languages such as python take. With the updates developed for C++, came multiple compilers proven to be useful such as Turbo C++ compiler. The first C++ compiler however, was Cfront, but as the name suggests, it was only a front-end compiler. The language itself though, has been modified multipletimes with C++20 being the most updated version and C++23 being in the works. An interesting feature of C++ is its multiple inheritance feature that allows classes to inherit from more than one class. 
+
+Installation
+	To learn C++ you’ll need to install important software. It is essential to install a text editor and a compiler. Examples of text editors are Visual Studio code or Atom. However, such editors require the compiler. A compiler convenient for multiple operating systems is GCC. 
+	Installing the required text editors and compilers can get a little tricky if your technology requires steps such as setting up paths in order to actually be able to compile the code when running a program. A convenient solution to this is to install jGrasp, an IDE with everything included that will make learning a new language a much easier process. jGrasp edits, compiles, runs and debugs programs all in one and luckily enough, it’s not only useful for learning C++ but a variety of other programming languages as well.
+
+Learning C++
+How to start learning C++ (Guide)
+Easy to learn modules Code Academy
+C++ Tutorial for beginners Full course 4 hrs	(Includes table of contents with time stamps)
+Learn C++: Everything you need to know!
+
+Sources:	https://www.geeksforgeeks.org/history-of-c/#:~:text=C%2B%2B20%20is%20the,C%2C%20by%20knocking%20out%20Python.
+
+https://careerkarma.com/blog/learn-c-plus-plus/
 
 
-Sources:
-	https://www.geeksforgeeks.org/history-of-c/#:~:text=C%2B%2B20%20is%20the,C%2C%20by%20knocking%20out%20Python.
+
+
