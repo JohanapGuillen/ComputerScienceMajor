@@ -41,6 +41,6 @@ statement it belongs to.
       https://www.geeksforgeeks.org/dangling-else-ambiguity/
 
 Short-Circuit
-C++ does use short-circuit logic. Short-circuiting allows the program to quickly work through the code without having to pass through unnecessary expressions 
+  C++ does use short-circuit logic. Short-circuiting allows the program to quickly work through the code without having to pass through unnecessary expressions 
 and conditions when the beginning of the expression automatically declares the result of the entire expression. It takes a short-cut getting to the output as 
 soon as possible.
