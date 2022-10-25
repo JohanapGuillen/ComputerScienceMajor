@@ -1,6 +1,6 @@
 Let's talk C++
 
-#History
+*History
 
 C++ is an object oriented programming developed by a Danish computer scientist known as Bjarne Stroucstrup. 
 This program was developed by making certain changes and improvements on C. As can be assumed by the type of program, 
@@ -8,7 +8,7 @@ it adds object-oriented features to C. C++ is mainly used for game programming, 
 developing, operating systems, and applications. Some interesting examples of C++ in action are games such as World of 
 Warcraft and even gaming consoles such as Playstation, Nintendo Switch and Xbox. This language plays an essential role 
 in game developing as it allows developers to build the most high-performance games they can develop. 
-  Originally c++ was named "C with classes" but was changed in 1983 to its current name, demonstrating the incrementation 
+Originally c++ was named "C with classes" but was changed in 1983 to its current name, demonstrating the incrementation 
 from C to C++. It is designed to have qualities of C such as its speed but comes with its own high-level properties. The 
 downside to this language is that it's a little harder to learn for beginners in coding and the code itself takes up more
 time then code in languages such as python take. With the updates developed for C++, came multiple compilers proven to be
@@ -18,10 +18,10 @@ and C++23 being in the works. An interesting feature of C++ is its multiple inhe
 inherit from more than one class. 
 
 Installation
-  To learn C++ you’ll need to install important software. It is essential to install a text editor and a compiler. Examples 
+To learn C++ you’ll need to install important software. It is essential to install a text editor and a compiler. Examples 
 of text editors are Visual Studio code or Atom. However, such editors require the compiler. A compiler convenient for multiple 
 operating systems is GCC. 
-  Installing the required text editors and compilers can get a little tricky if your technology requires steps such as setting 
+Installing the required text editors and compilers can get a little tricky if your technology requires steps such as setting 
 up paths in order to actually be able to compile the code when running a program. A convenient solution to this is to install 
 jGrasp, an IDE with everything included that will make learning a new language a much easier process. jGrasp edits, compiles, 
 runs and debugs programs all in one and luckily enough, it’s not only useful for learning C++ but a variety of other programming
@@ -40,7 +40,7 @@ Sources:
 https://www.geeksforgeeks.org/history-of-c/#:~:text=C%2B%2B20%20is%20the,C%2C%20by%20knocking%20out%20Python.
 https://careerkarma.com/blog/learn-c-plus-plus/
 
- In C++, classes are essential when coding. Most importantly, the names utilized for classes must follow the right rules
+In C++, classes are essential when coding. Most importantly, the names utilized for classes must follow the right rules
 and criteria, just as the conventional naming of variables is important as well. For classes specifically, the name should 
 be a noun and the name should be camelcase to separate the words from each other while the first letter of the class must
 be upper case. However, something to remember is that underscores are NOT allowed in class names.
