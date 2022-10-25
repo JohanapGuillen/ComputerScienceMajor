@@ -46,14 +46,14 @@ be a noun and the name should be camelcase to separate the words from each other
 be upper case. However, something to remember is that underscores are NOT allowed in class names.
 
 
-        While underscores are not allowed in class names, they are allowed in variable names as long as the rest of the variable
+While underscores are not allowed in class names, they are allowed in variable names as long as the rest of the variable
 name is valid in following their own rules. C++ asks that variable names begin with an alphabet and numbers are allowed, 
 but only after the first letter is strictly an alphabet. Additionally, keywords are not allowed as variable names and any
 special characters, including whitespaces, are also not allowed as this language is case sensitive so the smallest details 
 are important.  
 
 
-        To furthermore break down the naming conventions, classes, structs and typedefs start with a capital letter while others such 
+To furthermore break down the naming conventions, classes, structs and typedefs start with a capital letter while others such 
 as functions and variables start with a lowercase letter. Pointer Variables  require the keyword be followed by an asterisk (*) 
 and the asterisk is followed by the variable name. Interfaces, which are functions an object must have to be classified as 
 that object, are named with an Interface suffix, abstract base classes with an Abstract prefix, member variables with a trailing
@@ -61,7 +61,7 @@ underscore. Global variables have a prefix of g_ while global constants typicall
 variables are named with a prefix, s_ . 
 
 
-        C++, a strongly typed programming language, is a statically-typed language meaning that data types are associated with variables
+C++, a strongly typed programming language, is a statically-typed language meaning that data types are associated with variables
 rather than values. The variable types are determined at compile time so the naming conventions mentioned above are enforced by 
 the compiler. It is both explicitly and implicitly typed. The difference between the two is that explicitly typed languages have
 variables declared by the users while the implicit type has the program inferring what the variable data types are. As for 
@@ -70,7 +70,7 @@ these keywords do is prevent objects, methods() and variables from being modifie
 https://www.codeproject.com/Articles/5315601/Python-vs-Cplusplus-Series-Mutable-Immutable-and-C#:~:text=C%2B%2B%20supports%20two%20notions%20of,objects%20are%20mutable%20by%20default
 https://en.wikipedia.org/wiki/Immutable_object#C++
 
-        Binding is defined as converting identifiers into addresses. Identifier names and operator symbols are bound during their 
+Binding is defined as converting identifiers into addresses. Identifier names and operator symbols are bound during their 
 binding time in C++. This binding time occurs at the moment of its creation or declaration. The binding in C++ is static by
 default. It is known as early binding as the programmer is the one to explicitly make the call in the program.
 
@@ -179,4 +179,5 @@ utilized to access memory on the heap.
 
 https://www.educba.com/c-stack-vs-heap/
 
+This is a code reference
 https://github.com/JohanapGuillen/ComputerScienceMajor/blob/54728ee9e1a6d162e77aa0d3e1f1a83cfa8e3fe0/plp2Testing.cpp
