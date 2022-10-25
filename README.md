@@ -1,8 +1,8 @@
 Let's talk C++
 
-History
+#History
 
-  C++ is an object oriented programming developed by a Danish computer scientist known as Bjarne Stroucstrup. 
+C++ is an object oriented programming developed by a Danish computer scientist known as Bjarne Stroucstrup. 
 This program was developed by making certain changes and improvements on C. As can be assumed by the type of program, 
 it adds object-oriented features to C. C++ is mainly used for game programming, software engineering, data structures, 
 developing, operating systems, and applications. Some interesting examples of C++ in action are games such as World of 
@@ -93,13 +93,12 @@ Dictionary(map): map<int, string> colors= {{1, “Purple”,},
       {3, “Orange”,}} 
 https://www.udacity.com/blog/2020/03/c-maps-explained.html
 
-
- 
+      
 Mixed Type Arithmetic
-int/int = int → 9/2 = 4
-float/int = float → 9.0/2 = 4.5
-int/float = float → 9/2.0 = 4.5
-float/float = float → 9.0/2.0 = 4.5
+*Int/int = int → 9/2 = 4
+*Float/int = float → 9.0/2 = 4.5
+*Int/float = float → 9/2.0 = 4.5
+*Float/float = float → 9.0/2.0 = 4.5
 
 
 Arithmetic operators:
@@ -179,5 +178,78 @@ utilized to access memory on the heap.
 
 https://www.educba.com/c-stack-vs-heap/
 
-This is a code reference
+This is a code reference to the Language overview and setup
 https://github.com/JohanapGuillen/ComputerScienceMajor/blob/54728ee9e1a6d162e77aa0d3e1f1a83cfa8e3fe0/plp2Testing.cpp
+
+C++, like many other languages has its operations precedence, conditional statements, boolean and short-circuiting. 
+
+
+Booleans
+  Its boolean values are 1 and 0 with a the true statement outputting a 1 and the false statement outputting a 0. Take for example,
+std:: cout << (7>8); The result would be false, the output would be 0.
+
+
+Conditional statements
+  The conditional statements include logical conditions that are well known in mathematics with the comparison values such as >,<,== and so on. 
+The conditions C++ allows are the usual if/else statements. It also allows else if statements which would go in between the if and the else. 
+Else if statements are C++’s version of elif statements, an alternative solution would would be to place if else statements within themselves. 
+An example being starting with an if, following with an else, but in that else having another if followed by an else. However, used incorrectly,
+that version can get confusing so the safest straight forward option would be to utlitize the else if. Lastly, C++ utilizes switch statements. 
+Now switch statements are useful when multiple blocks of code go in a specific statement. These statements come with an option to use “break” in
+order to stop running through that specific subprogram and output what was sought. Using “break” is more of a preference/ convenience of the 
+specific program being coded so think carefully if you want to stop running through your options then and there, or if the following additional 
+cases are useful and have a purpose to the output you are seeking.   
+      https://www.w3schools.com/cpp/cpp_conditions.asp
+
+
+Operators Precedence
+  When it comes to Operators Precedence, operators with a higher precedence have priority so that the values and operations in an expression are not 
+all evaluated at once but rather the ones with higher precedence are evaluated first. There are multiple tables available with the precedence, operator,
+description and associativity that can be found. Two of which the links will be provided.
+      https://www.programiz.com/cpp-programming/operators-precedence-associativity
+      https://en.cppreference.com/w/cpp/language/operator_precedence
+
+
+Delimiter
+  C++ has one delimiter for statements, the semicolon. The use of the semicolon is what the program recognizes as the end of a statement rather than the end 
+of the code itself. For this reason, indentation is not a priority so multiple statements can be on the same line as long as each statement is followed by 
+the semicolon. For example rather than having 3 lines, each representing, int a = 5; int b = 6; and cout << a + b; one line can can accomplish the same: 
+int a = 5; int b = 6; std :: cout << a + b;
+      https://www.softwaretestinghelp.com/cpp-basics/
+  
+  In the case of code blocks, the curly brackets are typically what group together the code for conditions. That being said an if statement without brackets 
+is permitted but it will be declared to only have one line of code as a result. This poses a concern known as the “dangling else” . The “dangling else” problem 
+is a syntatic ambiguity issue that results with nested ifs. If statements can easily confuse the else statement, leaving the else statement wondering which if 
+statement it belongs to.
+      https://www.geeksforgeeks.org/dangling-else-ambiguity/
+
+Short-Circuit
+  C++ does use short-circuit logic. Short-circuiting allows the program to quickly work through the code without having to pass through unnecessary expressions 
+and conditions when the beginning of the expression automatically declares the result of the entire expression. It takes a short-cut getting to the output as 
+soon as possible.
+
+This is code reference to if/else, switch and logical operators
+
+https://github.com/JohanapGuillen/ComputerScienceMajor/blob/18ea051b03490ece0d054c6346c06cd179da7e77/plp3.cpp
+
+
+Loops
+C++ includes a variety of Loops such as the while, do/while, for, foreach. The while loop takes in a condition and as long as that condition remains to be true, the loop will run through the block of code. The do/while loop is very much like the while loop but differs in first checking if the condition is true and then repeating the block of code as long as the condition continues to remain true. The for loop includes knowing how many times the user wants to loop through the block of code, specifying that amount in the statements so that the code is only run that exact amount of times. The foreach loop differs from the for loop because rather than running the code block a specific number of times, it runs through elements of a containers such as arrays, vectors and so on and performs action with each element. 
+
+Functions
+	Declaring a function in C++ involves telling the compiler about its name, return type and parameter. The function definition is the body of the function, the block of code that runs. While C++ has various built in functions, programmers themselves can write their own. The program must always include an int main() function in which the rest of the functions can be called. Outside of that function will be the rest of the functions separately declared, the order does not matter as C++ uses a compiler to run. The format of a typical function is return_type function_name(paremeters){ body of the function}. Clearer examples are provided in the code of this section. 
+	Functions can take in multiple parameters, during the function call, the parameters must be listed in the order that the function will receive them. The types of parameters that can be passed are values, pointers and references. C++ does allow one function to take in different data types as parameters, a useful feature that expands the work that can be done with functions. Programmers just have to be very careful to specify the data types in the function declarations and use proper syntax.
+	Recursive functions are also permitted. Recursive functions are functions that call themselves using the recursion technique. These functions continue to run until a certain condition is met and just like the other functions, recursive functions are called in the main function. To make sure conditions are met and the recursive doesn’t call itself an endless amount of times, it is essential to use if and else statemtents or anything similar in which one branch can call the recursive function while the other does not.
+	Inrerstingly enough, functions in C++ do not return multiple values. However, using a method called “call by address” or “call by reference” and the invoker function to pass 2 variables to store the results. This function will take in pointer type data. More details pertaining to this “bypassing” method can be found at https://www.tutorialspoint.com/returning-multiple-values-from-a-cplusplus-function . Additionally, another unofficial way of returning multiple values from a function is with the std::pair, std::tuple or local struct. More details on that can be found at https://www.educative.io/answers/how-to-return-multiple-values-from-a-function-in-cpp17 .
+	C++ are pass-by value by default when it comes to primitive data types but when it comes to non-primitive data types, those are pass-by reference by default. It’s important to consider that passing by const reference is the ideal pass in order to avoid argument modification but in the case that one does need to modify a function argument locally, passing by a value woul then be ideal. While for simple down to earth code, one or the other passing features works but in the case of more complicated programs, const references with the proper understanding will come with less errors down the line.
+	When it comes to storage, parameters are stored in the parameter list which is located in the caller’s Data Structure and Algorithms but to ensure ALL parameters are stored in the list, a compiler option XPLINK(STORAGWARGS) may be utilized. As for local variables, they are stored in the memory are of the corresponding function. They’re usually stored in RAM, either the Heap or the Stack. Since these are at different locations, pointers are used to gain access to them when necessary.
+	
+	
+Scopes
+	There are five types of scopes in C++; function scope, file scope, block scope, function prototype and class scope. The function scope contains identifiers that can only be accessed in the function that declares them. The file scope has the availability of the variable throughout the file or program, having a global scope. This makes it available everywhere to every function and block in the program. The identifiers with file scope are global variables, function definitions and function prototypes placed outside of all functions. Block scopes are contained within curly braces. Identifiers declared in a block are visible only from the point that they are defined until thee moment before the code block comes to an end. The function prototype scope consists of a parameters list that serves as placeholders for variable identifiers. There is no storage allocated or reserved for them and are not visible outside of the function prototype. Finally, the class scope consists of a class member being local to its class.
+
+This is a reference code to loops and functions
+https://github.com/JohanapGuillen/ComputerScienceMajor/blob/f46ace643431b4077b0c3cda9e65fd374f6537f4/plp4.cpp
+
+
+
